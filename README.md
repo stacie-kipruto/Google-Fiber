@@ -16,3 +16,6 @@
 
 - This query combines all the data from three different tables (`market_1`, `market_2`, and `market_3`) into a single list. It uses the `UNION ALL` command, which ensures that every row from each table is included, even if there are duplicates. It merges the tables' contents without any filtering.
 - The result was then saved into a CSV to be used in Tableau for analysis.
+- A target table is then used to consolidate and store the dataset for visualization on Tableau. The `UNION ALL` statement is applied here instead of a `JOIN` statement because the tables already have matching columns, making it easy to merge completely.
+
+  ![image](https://github.com/stacie-kipruto/Google-Fiber/assets/66944986/81b99a84-14fc-48c1-8300-35b6ac6a4fce)
